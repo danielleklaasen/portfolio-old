@@ -1,0 +1,84 @@
+
+/*********************
+INPUTS
+*********************/
+
+// setting up defaults
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+select,
+textarea,
+.field {
+  padding-left: 10px;
+  padding-top: 5px;
+  margin: 5px 0;
+  width: 100%;
+  max-width:400px;
+  min-height: 45px;
+  @include border($primary-color);
+  font-family: $body-font;
+  // a focused input (or hovered on)
+  &:focus,
+  &:active {
+    outline: none;
+  } // end hover or focus
+
+  // error notification
+  &.error,
+  &.is-invalid {
+
+  } // end invalid input
+
+  // success notification
+  &.success,
+  &.is-valid {
+
+  } // end valid input
+
+} // end input defaults
+
+// spacing out the password (thx @murtaugh)
+input[type="password"] {
+  letter-spacing: 0.3em;
+}
+
+// textareas
+textarea {
+  min-height: 200px;
+  line-height: 1.618em;
+  padding-top: 20px;
+}
+
+form{
+  div{
+    position: relative;
+    label{
+      position: absolute;
+      left: 10px;
+      top: 20px;
+      transition: 0.2s all;
+      font-family: $header-font;
+      text-transform: uppercase;
+      font-size:1.125em;
+     // line-height: 50px;
+      &.active{
+        color: $accent1-color;
+        left: 10px;
+        top: 7px;
+        font-size: 0.9em;
+      }
+    }
+  }
+}

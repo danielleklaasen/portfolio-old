@@ -1,0 +1,128 @@
+/*********************
+BREAKPOINTS
+*********************/
+
+@mixin breakpoint($point) {
+  @if $point == desktop {
+    @media (min-width: 1200px) { @content ; }
+  }
+  @else if $point == laptop {
+    @media (min-width: 1024px) { @content ; }
+  }
+  @else if $point == tablet {
+    @media (min-width: 768px) { @content ; }
+  }
+  @else if $point == mobilelandscape {
+    @media (min-width: 480px)  { @content ; }
+  }
+}
+
+
+/*
+use like this:
+@include breakpoint(laptop) {
+    width:100%;
+  }
+*/
+
+/*********************
+Border radius
+*********************/
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+  background-clip: padding-box;  /* stops bg color from leaking outside the border: */
+}
+
+/*********************
+Box shadow
+*********************/
+
+@mixin box-shadow($size){
+  box-shadow: $size $size 0 rgba($primary-color, 0.25);
+}
+
+/*********************
+
+EXTENDS
+
+*********************/
+
+
+/*********************
+Background image
+*********************/
+
+%background-image{
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*********************
+Box shadow
+*********************/
+
+%shadow{
+  box-shadow: 10px 10px 0 rgba($primary-color, 0.25);
+}
+/*********************
+Others
+*********************/
+
+@mixin border($color){
+  border: 1px solid $color;
+  @include border-radius(2px);
+}
+@mixin background-size($value){
+  -webkit-background-size: $value;
+  -moz-background-size: $value;
+  -o-background-size: $value;
+  background-size: $value;
+}
+
+@mixin input-placeholder($value){
+  -webkit-input-placeholder: $value;
+  -moz-input-placeholder: $value;
+  input-placeholder: $value;
+  color: $primary-color;
+  font-size: 11px;
+  transform: translateY(-20px);
+  visibility: visible !important;
+}
+
+@mixin alpha-background-color($color, $background) {
+  $percent: alpha($color) * 100%;
+  $opaque: opacify($color, 1);
+  $solid-color: mix($opaque, $background, $percent);
+  background-color: $solid-color;
+  background-color: $color;
+}
+
+
+
+@mixin flex-direction-column(){
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@mixin anime($time, $cubic){
+  -webkit-transition: all $time $cubic;
+  -moz-transition: all $time $cubic;
+  -o-transition: all $time $cubic;
+  transition: all $time $cubic;
+}
+@mixin center(){
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,23 @@
+/********************************************************************************
+
+                                  FOOTER
+
+********************************************************************************/
+
+.footer{
+  width: 100vw;
+  height: 50vh;
+  position: absolute;
+  left: 0;
+  .container{
+    height: 50vh;
+    @include flexbox();
+    @include flex-direction(column);
+    @include align-items(center);
+    @include justify-content(space-around);
+    @include breakpoint(tablet){
+      @include flex-direction(row);
+    }
+  }
+}
+

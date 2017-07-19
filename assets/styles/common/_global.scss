@@ -1,0 +1,448 @@
+
+/********************************************************************************
+
+ TABLE OF CONTENTS
+
+   GENERAL
+   NAVIGATION
+   HOVER EFFECTS
+   SHAPES
+   CARD
+   TEMPLATE PAGE
+   VIEWS (WDW)
+    Z-index overview
+   BACKGROUND IMAGE
+   LANDING
+   PAGES
+   SOCIAL ICONS
+
+ ********************************************************************************/
+
+
+/********************************************************************************
+
+                                  GENERAL
+
+********************************************************************************/
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body,html{
+  width: 100%;
+  height: 100vh;
+}
+
+.container{
+  width: 95%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section{
+  margin: 50px 0;
+}
+
+hr{
+  margin: 30px 0;
+  border-top: 1px solid $primary-color;
+  width: 100%;
+}
+
+.center{
+  text-align: center;
+}
+
+.centered{
+  margin: 0 auto;
+}
+
+.space{
+  height: 100px;
+}
+
+.only-mobile{
+  @include breakpoint(laptop){
+    display: none;
+  }
+}
+.only-desktop{
+  display: none;
+  @include breakpoint(laptop){
+    display: block;
+  }
+}
+
+
+/********************************************************************************
+
+                                 ANIMATION
+
+********************************************************************************/
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeInLeft;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+/********************************************************************************
+
+                                  HOVER EFFECTS
+
+********************************************************************************/
+.link-underline-appear, .link-underline-disappear{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+  &:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    height: 1px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+}
+
+
+.link-underline-appear{
+  &:before{
+    left: 50%;
+    right: 50%;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    &:before {
+      left: 0;
+      right: 0;
+    }
+  }
+}
+
+.link-underline-disappear{
+  &:before{
+    left: 0;
+    right: 0;
+  }
+  &:hover,
+  &:focus,
+  &:active {
+    &:before {
+      left: 50%;
+      right: 50%;
+    }
+  }
+}
+/********************************************************************************
+
+                                  SHAPES
+
+********************************************************************************/
+
+.circle{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: 2px solid $primary-color;
+  .profile-icon{
+    width: 19px;
+  }
+}
+
+.arrow-down{
+  position: relative;
+  height: 54px;
+  .arrow-down-line{
+    position: absolute;
+    left: 3px;
+    width: 1px;
+    background-color: $primary-color;
+    height: 50px;
+  }
+  .arrow-down-point{
+    position: absolute;
+    bottom: 0;
+
+    width:0;
+    height:0;
+    border-left:4px solid transparent;
+    border-right:4px solid transparent;
+    border-top:4px solid $primary-color;
+   }
+}
+
+.vertical-line{
+  width: 1px;
+  background-color: $primary-color;
+  height: 30px;
+}
+
+.animate-bounce {
+  animation: bounce 2s infinite;
+  &:hover {
+    animation: none;
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+/********************************************************************************
+
+                                  CARD
+
+********************************************************************************/
+
+%card {
+  background: $base-color;
+  @include border-radius(2px);
+  position: relative;
+
+  width: 300px;
+  height: 200px;
+}
+
+%card-shadow-1{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+%card-shadow-2{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-1 {
+  @extend %card;
+  @extend %card-shadow-1;
+}
+
+.card-2{
+  @extend %card;
+  @extend %card-shadow-2;
+}
+
+/********************************************************************************
+
+                                  TEMPLATE PAGE
+
+********************************************************************************/
+
+#colors{
+  .fixed-width{
+    width: 50px;
+  }
+}
+
+.gradient-1, .gradient-2, .gradient-3, .gradient-4{
+  width: 100%;
+  height: 400px;
+}
+
+/********************************************************************************
+
+                                  VIEWS (WDW)
+
+********************************************************************************/
+
+.wdw{
+  width: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: none;
+
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100%;
+
+  &.open{
+    display: block;
+  }
+}
+.wdw-login{
+  .background-image {
+    background-image: url(../images/img2.jpg);
+  }
+}
+
+.wdw-example-2{
+  .background-image{
+    background-image: url(../images/img7.jpg);
+  }
+}
+
+.wdw-example-3{
+  &.background-image{
+    background-image: url(../images/img1.jpg);
+  }
+}
+
+
+/********************************************************************************
+                                  Z-index overview
+********************************************************************************/
+
+.wdw-template{
+  z-index: 0;
+}
+
+.wdw-example-1{
+  z-index: 100;
+}
+
+.wdw-example-2{
+  z-index: 200;
+}
+
+.wdw-example-3{
+  z-index: 300;
+}
+
+/*
+
+spaceship:              9999
+ */
+
+/********************************************************************************
+
+                                  BACKGROUND IMAGE
+
+********************************************************************************/
+
+.background-image{
+  padding-top: 0;
+  @include background-size(cover);
+  background-position: center;
+  //background-image: url(../assets/images/yourUrl.jpg);
+}
+
+.image-half-width{
+  height: 100vh;
+  width: 50vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  @extend %card-shadow-2;
+}
+
+
+
+/********************************************************************************
+
+                                  LANDING
+
+********************************************************************************/
+
+.landing{
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  @include breakpoint(laptop){
+    @include flexbox();
+    @include flex-direction(row);
+    .front-img-large{
+      background-image: url(../images/danielle2.jpg);
+      background-position: center top;
+      //background-image: url(../images/img6.jpg);
+      width: 46.86%;
+      margin-right: 6.28%;
+      height: 100vh;
+    }
+    .content{
+      width: 46.86%;
+
+    }
+  }
+  .content{
+    height: 85vh;
+    padding: 10vh 0 5vh 0;
+    @include flexbox();
+    @include flex-direction(column);
+    @include align-items(center);
+    @include justify-content(space-around);
+    @include breakpoint(laptop){
+      @include align-items(flex-start);
+    }
+    h1{
+      line-height: normal;
+      margin: 0;
+      width: 100%;
+
+      text-align: center;
+      @include breakpoint(laptop){
+        text-align: left;
+        margin-left: -30%;
+        font-size: 3.75em; /*60 / 16 */
+      }
+    }
+    .res-front-img{
+      width: 40%;
+      max-width: 200px;
+    }
+  }
+}
+
+/********************************************************************************
+
+                                 PAGES
+
+********************************************************************************/
+
+
+
+/********************************************************************************
+
+                                  SOCIAL ICONS
+
+********************************************************************************/
+
+.social-icons{
+  i{
+    transition: 0.2s;
+    &:hover{
+      color: $secondary-color;
+    }
+  }
+
+}

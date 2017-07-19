@@ -1,0 +1,129 @@
+/******************************************************************
+
+Stylesheet: Typography
+
+body font-size should be 100% (set to default of browser, most likely 16 px)
+
+CALCULATING EMS
+target ÷ context = result
+
+example:
+24 ÷ 16 = 1.5
+
+explanation: you want 24 px, base is 16 px.
+set styling to 1.5 em.
+
+***************************************************
+
+LINE HEIGHT
+Multiply your letter size by 1.618 and you will get perfect line height.
+
+
+******************************************************************/
+
+
+// font stacks
+$sans-serif:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif:             "Georgia", Cambria, Times New Roman, Times, serif;
+$header-font:       'Pathway Gothic One', $sans-serif;
+$body-font:         'Cardo', serif;
+
+
+/*
+font-family: 'Pathway Gothic One', sans-serif;
+font-family: 'Cardo', serif;
+*/
+
+body{
+  font-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: $header-font;
+  color: $primary-color;
+  line-height: 1.618em;
+
+  //add customization style
+  text-transform: uppercase;
+  font-weight: normal;
+
+  &.light{
+    color: $base-color;
+  }
+  &.bold, .bold{
+    font-weight: bold;
+  }
+}
+
+h1{
+  font-size: 2.625em; /* 42x / 16px */;
+  @include breakpoint(tablet){
+    font-size: 3em /* 48px / 16px */;
+  }
+
+}
+h2{
+  font-size: 2.25em /* 36px / 16px */;
+}
+h3{
+  font-size: 1.875em /* 30px / 16px */;
+}
+h4{
+  font-size: 1.125em /* 24px / 16px */;
+}
+h5{
+  font-size: 1em /* 18px / 16px */;
+}
+h6{
+  font-size: 1em /* 16px */;
+}
+
+p{
+  font-size: 1em /* 16px */;
+  font-family: $body-font;
+  font-weight: normal;
+  color: $primary-color;
+  &.emphasis{
+    font-weight: bold;
+  }
+  .attention{
+    text-transform: uppercase;
+  }
+  &.sub, &.note{
+    font-size: 0.9em;
+  }
+  &.note{
+    .attention{
+      text-transform: none;
+      font-weight: 500;
+    }
+  }
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+a{
+  font-family: $body-font;
+  color: $primary-color;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+td{
+  color: $primary-color;
+}
+
+.letter-spacing{
+  letter-spacing: 3px;
+}

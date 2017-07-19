@@ -1,0 +1,12 @@
+{
+  "name": "portfolio",
+  "homepage": "https://www.danielleklaasen.com",
+  "authors": [
+    "Danielle Klaasen <danielleklaasen@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "sass-flex-mixin": "1.0.3"
+  }
+}
