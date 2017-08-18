@@ -21,8 +21,9 @@ input[type="color"],
 select,
 textarea,
 .field {
+  background: transparent;
   padding-left: 10px;
-  padding-top: 5px;
+  padding-top: 15px;
   margin: 5px 0;
   width: 100%;
   max-width:400px;
@@ -48,7 +49,6 @@ textarea,
   } // end valid input
 
 } // end input defaults
-
 // spacing out the password (thx @murtaugh)
 input[type="password"] {
   letter-spacing: 0.3em;
@@ -62,22 +62,82 @@ textarea {
 }
 
 form{
+  max-width: 400px;
   div{
     position: relative;
+
     label{
+
       position: absolute;
       left: 10px;
-      top: 20px;
+      top: 17px;
       transition: 0.2s all;
       font-family: $header-font;
-      text-transform: uppercase;
+      //text-transform: uppercase;
       font-size:1.125em;
+      text-transform: none;
      // line-height: 50px;
+      color: $primary-color;
       &.active{
-        color: $accent1-color;
+        color: $accent2-color;
         left: 10px;
         top: 7px;
-        font-size: 0.9em;
+        font-size: 0.875em;
+      }
+    }
+  }
+}
+
+form.light{
+  // setting up defaults for light forms
+  input[type="text"],
+  input[type="password"],
+  input[type="datetime"],
+  input[type="datetime-local"],
+  input[type="date"],
+  input[type="month"],
+  input[type="time"],
+  input[type="week"],
+  input[type="number"],
+  input[type="email"],
+  input[type="url"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="color"],
+  select,
+  textarea,
+  .field {
+    @include border($base-color);
+    background-color: transparent;
+    color: $base-color;
+    font-family: $body-font;
+    // a focused input (or hovered on)
+    &:focus,
+    &:active {
+      outline: none;
+    } // end hover or focus
+
+    // error notification
+    &.error,
+    &.is-invalid {
+
+    } // end invalid input
+
+    // success notification
+    &.success,
+    &.is-valid {
+
+    } // end valid input
+
+  } // end input defaults
+  textarea{
+    min-height: 200px;
+  }
+  div{
+    label{
+      color: $base-color;
+      &.active{
+        color: $base-color;
       }
     }
   }

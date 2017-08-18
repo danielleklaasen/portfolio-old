@@ -4,8 +4,8 @@
   cursor: pointer;
   width: 150px;
   text-align: center;
-  font-size: 0.875em;
-  font-family: $body-font;
+  font-size: 1em;
+  font-family: $header-font;
 }
 
 button, .btn{
@@ -23,6 +23,9 @@ button, .btn{
   &.open{
     background-color: $base-color;
     color: $primary-color;
+    &.btn-hover-2{
+      background-color: $secondary-color;
+    }
   }
 }
 
@@ -34,6 +37,7 @@ button, .btn{
     background-color: $base-color;
     color: $accent1-color;
   }
+
 }
 
 .btn-3{
@@ -45,6 +49,17 @@ button, .btn{
     color: $accent2-color;
   }
 }
+
+.btn-4{
+  background-color: $secondary-color;
+  color: $accent1-color;
+  @include border($secondary-color);
+  &.open{
+    background-color: $accent1-color;
+    color: $secondary-color;
+  }
+}
+
 
 .btn-home{
   font-family: $header-font;
@@ -135,7 +150,7 @@ button, .btn{
     display: block;
     position: absolute;
     height: 2px;
-    left: 7px;
+    left: 6px;
     width: 31px;
     background: $base-color;
     border-radius: 0;
@@ -150,10 +165,10 @@ button, .btn{
     transition: .25s ease-in-out;
     &:first-child{
 
-      top: 14px;
+      top: 12px;
     }
     &:nth-child(2){
-      top: 22px;
+      top: 21px;
     }
     &:nth-child(3){
       top: 30px;
@@ -206,146 +221,6 @@ button, .btn{
                                   HOVER EFFECTS
 
 ********************************************************************************/
-/*
-.btn-hover-1 {
-  width: 200px;
-  height: 50px;
-  display: block;
-  position: relative;
-  &:hover .twist:before {
-    background: $base-color;
-    transform: matrix3d(1, 0, 0, 0,
-            0, 1, 0, 0,
-            0, 0, 1, 0.003,
-            0, 50, 0, 1);
-  }
-  &:hover .twist:after {
-    background: darken($secondary-color, 0.5);
-    transform: matrix3d(1, 0, 0, 0,
-            0, 0, -1, 0.003,
-            0, 1, 0, 0,
-            0, 0, 0, 1);
-  }
-  &:hover{
-    .btn-hover-1-text{
-      &:nth-of-type(1) {
-        transform: matrix3d(1, 0, 0, 0,
-                0, 1, 0, 0,
-                0, 0, 1, 0.003,
-                0, 50, 0, 1);
-      }
-      &:nth-of-type(2) {
-        transform: matrix3d(1, 0, 0, 0,
-                0, 0, -1, 0.003,
-                0, 1, 0, 0,
-                0, 0, 0, 1);
-      }
-    }
-  }
-  .btn-hover-1-text {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: 1;
-    text-align: center;
-    line-height: 50px;
-    font-size: 0.875em;
-    &:nth-of-type(1) {
-      color: $primary-color;
-      background: rgba($secondary-color,0.5);
-      bottom: 100%;
-      transform-origin: center bottom 0px;
-      transform: matrix3d(1, 0, 0, 0,
-              0, 0, -1, -0.003,
-              0, 1, 0, 0,
-              0, 0, 0, 1);
-
-      -webkit-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-      -moz-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-      -o-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-      transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-    }
-    &:nth-of-type(2) {
-      color: $base-color;
-      top: 100%;
-      transform-origin: center top 0px;
-      transform: matrix3d(1, 0, 0, 0,
-              0, 1, 0, 0,
-              0, 0, 1, -0.003,
-              0, -50, 0, 1);
-
-      -webkit-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-      -moz-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-      -o-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-      transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-    }
-  }
-  .twist {
-    display: block;
-    height: 100%;
-    width: 25%;
-    position: relative;
-    float: left;
-    margin-left: -4px;
-    &:before{
-      content: "";
-      width: 100%;
-      height: 100%;
-      background: darken($secondary-color,0.5);
-      bottom: 100%;
-      position: absolute;
-      transform-origin: center bottom 0px;
-      transform: matrix3d(1, 0, 0, 0,
-              0, 0, -1, -0.003,
-              0, 1, 0, 0,
-              0, 0, 0, 1);
-
-      -webkit-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-      -moz-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-      -o-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-      transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-    }
-    &:after {
-      content: "";
-      position: absolute;
-      width: 100%;
-      top: 100%;
-      height: 100%;
-      background: $primary-color;
-      transform-origin: center top 0px;
-      transform: matrix3d(1, 0, 0, 0,
-              0, 1, 0, 0,
-              0, 0, 1, -0.003,
-              0, -50, 0, 1);
-
-      -webkit-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-      -moz-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-      -o-transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-      transition: all 500ms cubic-bezier(0.970, 0.000, 0.395, 0.995);
-    }
-    &:nth-of-type(1) {
-      margin-left: 0;
-      &:before, &:after{
-        transition-delay: 0s;
-      }
-    }
-    &:nth-of-type(2) {
-      &:before, &:after{
-        transition-delay: 0.1s;
-      }
-    }
-    &:nth-of-type(3) {
-      &:before, &:after{
-        transition-delay: 0.2s;
-      }
-    }
-    &:nth-of-type(4) {
-      &:before, &:after{
-        transition-delay: 0.3s;
-      }
-    }
-  }
-}*/
 
 .btn-hover-1{
   transition: 0.5s all;
@@ -404,6 +279,13 @@ button, .btn{
   &:hover .four{
     transform: translate3d(0 ,0 ,0 );
   }
+  &.btn-4{
+    &:hover{
+      .btn-txt{
+        color: $accent1-color;
+      }
+    }
+  }
   .ring{
     width: 100%;
     height: 100%;
@@ -435,6 +317,9 @@ button, .btn{
   }
 }
 
+.git-btn{
+  width: 250px;
+}
 
 /********************************************************************************
 
@@ -442,15 +327,87 @@ button, .btn{
 
 ********************************************************************************/
 #up-button{
-  position: absolute;
+  position: fixed;
   bottom: 5px;
   right: 2.5%;
-  width:60px;
-
+  width:50px;
   display: none;
   cursor: pointer;
   z-index:9999;
+  transition: 1s transform;
+  @include breakpoint(tablet){
+    width:60px;
+  }
+  &:hover{
+    transform: translateY(20px);
+  }
   img{
     width: 100%;
   }
+}
+/********************************************************************************
+
+                                 SEND BUTTON
+
+********************************************************************************/
+
+#send-btn{
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  transition: all 0.15s;
+  outline: none;
+  overflow: visible;
+  display: block;
+  height: 50px;
+  width: 150px;
+  position: relative;
+  &:hover{
+    svg{
+      -webkit-transform: rotate(10deg);
+      -moz-transform: rotate(10deg);
+      -o-transform: rotate(10deg);
+      -ms-transform: rotate(10deg);
+      transform: rotate(10deg);
+      -webkit-transition: -webkit-transform 0.15s;
+      -moz-transition: -moz-transform 0.15s;
+      -o-transition: -o-transform 0.15s;
+      -ms-transition: -ms-transform 0.15s;
+      transition: transform 0.15s;
+    }
+  }
+  svg{
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    height: 20px;
+    width: auto;
+    -webkit-transition: -webkit-transform 0.15s;
+    -moz-transition: -moz-transform 0.15s;
+    -o-transition: -o-transform 0.15s;
+    -ms-transition: -ms-transform 0.15s;
+    transition: transform 0.15s;
+    path{
+      fill: $base-color;
+    }
+  }
+  &.clicked{
+    -webkit-animation: bounce-in 0.3s;
+    -moz-animation: bounce-in 0.3s;
+    -o-animation: bounce-in 0.3s;
+    -ms-animation: bounce-in 0.3s;
+    animation: bounce-in 0.3s;
+    cursor: default;
+    svg{
+      -webkit-animation: flyaway 1.3s linear;
+      -moz-animation: flyaway 1.3s linear;
+      -o-animation: flyaway 1.3s linear;
+      -ms-animation: flyaway 1.3s linear;
+      animation: flyaway 1.3s linear;
+      top: -80px;
+      right: -1000px;
+    }
+  }
+
 }

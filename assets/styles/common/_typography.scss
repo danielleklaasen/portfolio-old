@@ -47,6 +47,8 @@ h1, h2, h3, h4, h5, h6{
   text-transform: uppercase;
   font-weight: normal;
 
+
+
   &.light{
     color: $base-color;
   }
@@ -56,13 +58,18 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1{
+  letter-spacing: -2px;
   font-size: 2.625em; /* 42x / 16px */;
   @include breakpoint(tablet){
     font-size: 3em /* 48px / 16px */;
   }
+  @include breakpoint(laptop){
+    font-size: 3.5em /* 56px / 16px */;
+  }
 
 }
 h2{
+  letter-spacing: -1px;
   font-size: 2.25em /* 36px / 16px */;
 }
 h3{
@@ -83,6 +90,7 @@ p{
   font-family: $body-font;
   font-weight: normal;
   color: $primary-color;
+  line-height: 1.618em;
   &.emphasis{
     font-weight: bold;
   }
@@ -98,6 +106,15 @@ p{
       font-weight: 500;
     }
   }
+}
+
+blockquote{
+  font-size: 1em /* 16px */;
+  font-family: $body-font;
+  font-weight: normal;
+  color: $primary-color;
+  line-height: 1.618em;
+
 }
 
 .uppercase{
@@ -126,4 +143,8 @@ td{
 
 .letter-spacing{
   letter-spacing: 3px;
+}
+
+.header-font{
+  font-family: $header-font;
 }

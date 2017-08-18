@@ -2,7 +2,7 @@ header.main{
   width: 100%;
   height: 100px;
   z-index: 9999;
-  position: relative;
+  position: fixed;
 
   //display: none;
   &.header-small{
@@ -20,10 +20,12 @@ header.main{
 }
 
 .nav-bg{
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   position: fixed;
   left: 0;
+  bottom:0;
+  right:0;
   top: -100vh;
   transition: 1s all;
   z-index: 999;
@@ -38,8 +40,8 @@ header.main{
 }
 
 nav.main{
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   position: fixed;
   left: 0;
   top: 0;

@@ -18,9 +18,9 @@
 </div>
 
 <nav class="main">
-    <a id="wdw-admin" href="javascript:void(0)" class="btn-wdw link-underline-disappear menu-item">skills</a>
-    <a id="wdw-partners" href="javascript:void(0)" class="btn-wdw link-underline-disappear menu-item">my work</a>
-    <a id="wdw-about" href="javascript:void(0)" class="btn-wdw link-underline-disappear menu-item">what others say</a>
-    <a id="wdw-contact" href="javascript:void(0)" class="btn-wdw link-underline-disappear menu-item">contact</a>
-   <a id="wdw-style-guide" href="javascript:void(0)" class="btn-wdw link-underline-disappear menu-item">style guide</a>
+    <a href="#skills" class="link-underline-disappear menu-item">skills</a>
+    <a href="#work" class="link-underline-disappear menu-item">my work</a>
+    <a href="#testimonials" class="link-underline-disappear menu-item">what others say</a>
+    <a href="#contact" class="link-underline-disappear menu-item">contact</a>
+  <!--  <a id="wdw-style-guide" href="javascript:void(0)" class="btn-wdw link-underline-disappear menu-item">style guide</a>-->
 </nav>
