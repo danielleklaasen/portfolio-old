@@ -381,17 +381,22 @@
             <div class="col">
                 <h2>The Challenge</h2>
                 <p>
-                    Make a one page web app for a Real Estate company as a school project. Use PHP, HTML, CSS & JQuery to develop both front-end & back-end.
+                   For my internship at the KEA ProjectLab I have been working on a project for
+                    the Copenhagen Municipality. The problem we worked with was: How to digitalise
+                    the shopping street Amagerbrogade which is under renovation, so that it
+                    benefits the shop owners and the customers.
                 </p>
             </div>
             <div class="col">
                 <h2>The Approach</h2>
                 <p>
-                    I created a one page web app, where you can register and login to C R U D (create, read, update, delete) properties and users (only when logged in as a super admin).
-                    AJAX is used to optimize performance and usability. The page will for example automatically show the latest properties without refreshing and also notifies the user of newly uploaded properties through browser notifications.
+                    In our market research we learned that the renovations of a similar street
+                    were received negatively, because shop owners and customers were not enough
+                    informed about the changes.
                     <br/><br/>
-                    The digital solution is mobile-first developed and fully responsive.
-                    An extra feature is the AngularJS search form, where you can search through properties without delay.
+                    As a part of our end digital solution I worked with Apache Cordova and the
+                    Wikitude Plugin, to create an Augmented Reality experience that makes a poster
+                    come to life and show the key changes of the renovations of Amagerbrogade.
                 </p>
             </div>
         </div>
@@ -400,6 +405,9 @@
         <div class="tech-box">
             <h2 class="center">Used Technologies</h2>
             <div class="tech-icons">
+                <!--
+                Html, css, Javascript, wikitude, cordova
+                -->
                 <img class="svg" src="dist/images/sass.svg">
                 <img class="svg" src="dist/images/php.svg">
                 <img class="svg" src="dist/images/jquery.svg">
@@ -446,17 +454,21 @@
             <div class="col">
                 <h2>The Challenge</h2>
                 <p>
-                    Make a one page web app for a Real Estate company as a school project. Use PHP, HTML, CSS & JQuery to develop both front-end & back-end.
+                    Create a game, targeted at a specific audience. It should be made
+                    in HTML5, JavaScript (and CreateJS library), and it should be OOP
+                    ready (Object Orientated Programmig).
                 </p>
             </div>
             <div class="col">
                 <h2>The Approach</h2>
                 <p>
-                    I created a one page web app, where you can register and login to C R U D (create, read, update, delete) properties and users (only when logged in as a super admin).
-                    AJAX is used to optimize performance and usability. The page will for example automatically show the latest properties without refreshing and also notifies the user of newly uploaded properties through browser notifications.
+                    I created a digital casual game made into an app with the help of
+                    Cordova (PhoneGap). You play the game as a pug and you have to run
+                    from your owner in order not to get dressed.
                     <br/><br/>
-                    The digital solution is mobile-first developed and fully responsive.
-                    An extra feature is the AngularJS search form, where you can search through properties without delay.
+                    The game targets player types 'Killer' and 'Achiever'. These types
+                    are most likely to enjoy the game, due to competition and wanting to
+                    obtain a high score (staying undressed as long as possible).
                 </p>
             </div>
         </div>
@@ -465,6 +477,9 @@
         <div class="tech-box">
             <h2 class="center">Used Technologies</h2>
             <div class="tech-icons">
+                <!--
+                HTML, CSS, JS, CreateJS
+                -->
                 <img class="svg" src="dist/images/sass.svg">
                 <img class="svg" src="dist/images/php.svg">
                 <img class="svg" src="dist/images/jquery.svg">

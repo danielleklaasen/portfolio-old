@@ -1080,18 +1080,19 @@ spaceship:              9999
 
 .work-wdw{
   display: none;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  background-color: $base-color;
   &.open{
     display: block;
 
-    position: fixed;
-    top: 0;
-    left: 0;
-
-
-    height: 100%;
-    width: 100%;
-    overflow-y: scroll;
-    background-color: $base-color;
   }
   h1{
     margin: 1.5em 0;

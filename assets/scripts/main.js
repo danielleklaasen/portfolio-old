@@ -64,7 +64,8 @@ $(document).on('click', '.btn-close', function(){
     // //close wdw with matching class
     // $('.'+wdwClassToClose).removeClass('open');
 
-    $(this).parent().removeClass('open');
+    // $(this).parent().removeClass('open');
+    $(this).parent().fadeOut();
     $('body, html').removeClass('no-scroll');
     // $('html').removeClass('no-scroll');
 
@@ -428,7 +429,8 @@ function fnOpenWorkItem(wdwToOpen){
     // $('.wdw').removeClass('open');
     $('body, html').addClass('no-scroll');
     // $('html').addClass('no-scroll');
-    $('#'+wdwToOpen).addClass('open');
+    // $('#'+wdwToOpen).addClass('open');
+    $('#'+wdwToOpen).fadeIn();
 }
 /********************************************************************************
 
