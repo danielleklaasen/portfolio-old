@@ -24,7 +24,16 @@ button, .btn{
     background-color: $base-color;
     color: $primary-color;
     &.btn-hover-2{
-      background-color: $secondary-color;
+      background-color: transparent;
+      .btn-txt{
+      }
+      &.light{
+        color: $base-color;
+        @include border($base-color);
+        .four{
+         background-color: $primary-color;
+        }
+      }
     }
   }
 }
@@ -183,16 +192,21 @@ button, .btn{
 ********************************************************************************/
 
 .btn-close, .btn-close-menu{
-  position: absolute;
-  right: 15px;
+  position: fixed;
+  //right: 15px;
+  right: 1.5%;
   top: 15px;
   width: 32px;
   height: 32px;
   opacity: 1;
   cursor: pointer;
+  background-color: $secondary-color;
+  @include border($secondary-color);
+  transition: 0.2s all;
   &:before, &:after{
     position: absolute;
-    left: 15px;
+    left: 14px;
+    top: -1px;
     content: ' ';
     height: 32px;
     width: 2px;
@@ -279,10 +293,11 @@ button, .btn{
   &:hover .four{
     transform: translate3d(0 ,0 ,0 );
   }
-  &.btn-4{
+  &.btn-1{
+
     &:hover{
       .btn-txt{
-        color: $accent1-color;
+        //color: $accent1-color;
       }
     }
   }
