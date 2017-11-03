@@ -203,297 +203,6 @@ hr{
   transform: translateY(-100vh);
 }
 
-
-/********************************************************************************
-                                  FLY ANIMATION
-********************************************************************************/
-
-
-
-@-moz-keyframes flyaway {
-  0% {
-    -webkit-transform: rotate(10deg);
-    -moz-transform: rotate(10deg);
-    -o-transform: rotate(10deg);
-    -ms-transform: rotate(10deg);
-    transform: rotate(10deg);
-    top: 13px;
-    right: 25px;
-    height: 30px;
-  }
-  5% {
-    -webkit-transform: rotate(10deg);
-    -moz-transform: rotate(10deg);
-    -o-transform: rotate(10deg);
-    -ms-transform: rotate(10deg);
-    transform: rotate(10deg);
-    top: 13px;
-    right: 0px;
-    height: 30px;
-  }
-  20% {
-    -webkit-transform: rotate(-20deg);
-    -moz-transform: rotate(-20deg);
-    -o-transform: rotate(-20deg);
-    -ms-transform: rotate(-20deg);
-    transform: rotate(-20deg);
-    top: 13px;
-    right: -130px;
-    height: 45px;
-  }
-  40% {
-    -webkit-transform: rotate(10deg);
-    -moz-transform: rotate(10deg);
-    -o-transform: rotate(10deg);
-    -ms-transform: rotate(10deg);
-    transform: rotate(10deg);
-    top: -40px;
-    right: -280px;
-    opacity: 1;
-    -ms-filter: none;
-    filter: none;
-  }
-  100% {
-    -webkit-transform: rotate(60deg);
-    -moz-transform: rotate(60deg);
-    -o-transform: rotate(60deg);
-    -ms-transform: rotate(60deg);
-    transform: rotate(60deg);
-    top: -200px;
-    right: -1000px;
-    height: 0;
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-  }
-}
-@-webkit-keyframes flyaway {
-  0% {
-    -webkit-transform: rotate(10deg);
-    -moz-transform: rotate(10deg);
-    -o-transform: rotate(10deg);
-    -ms-transform: rotate(10deg);
-    transform: rotate(10deg);
-    top: 13px;
-    right: 25px;
-    height: 30px;
-  }
-  5% {
-    -webkit-transform: rotate(10deg);
-    -moz-transform: rotate(10deg);
-    -o-transform: rotate(10deg);
-    -ms-transform: rotate(10deg);
-    transform: rotate(10deg);
-    top: 13px;
-    right: 0px;
-    height: 30px;
-  }
-  20% {
-    -webkit-transform: rotate(-20deg);
-    -moz-transform: rotate(-20deg);
-    -o-transform: rotate(-20deg);
-    -ms-transform: rotate(-20deg);
-    transform: rotate(-20deg);
-    top: 13px;
-    right: -130px;
-    height: 45px;
-  }
-  40% {
-    -webkit-transform: rotate(10deg);
-    -moz-transform: rotate(10deg);
-    -o-transform: rotate(10deg);
-    -ms-transform: rotate(10deg);
-    transform: rotate(10deg);
-    top: -40px;
-    right: -280px;
-    opacity: 1;
-    -ms-filter: none;
-    filter: none;
-  }
-  100% {
-    -webkit-transform: rotate(60deg);
-    -moz-transform: rotate(60deg);
-    -o-transform: rotate(60deg);
-    -ms-transform: rotate(60deg);
-    transform: rotate(60deg);
-    top: -200px;
-    right: -1000px;
-    height: 0;
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-  }
-}
-@-o-keyframes flyaway {
-  0% {
-    -webkit-transform: rotate(10deg);
-    -moz-transform: rotate(10deg);
-    -o-transform: rotate(10deg);
-    -ms-transform: rotate(10deg);
-    transform: rotate(10deg);
-    top: 13px;
-    right: 25px;
-    height: 30px;
-  }
-  5% {
-    -webkit-transform: rotate(10deg);
-    -moz-transform: rotate(10deg);
-    -o-transform: rotate(10deg);
-    -ms-transform: rotate(10deg);
-    transform: rotate(10deg);
-    top: 13px;
-    right: 0px;
-    height: 30px;
-  }
-  20% {
-    -webkit-transform: rotate(-20deg);
-    -moz-transform: rotate(-20deg);
-    -o-transform: rotate(-20deg);
-    -ms-transform: rotate(-20deg);
-    transform: rotate(-20deg);
-    top: 13px;
-    right: -130px;
-    height: 45px;
-  }
-  40% {
-    -webkit-transform: rotate(10deg);
-    -moz-transform: rotate(10deg);
-    -o-transform: rotate(10deg);
-    -ms-transform: rotate(10deg);
-    transform: rotate(10deg);
-    top: -40px;
-    right: -280px;
-    opacity: 1;
-    -ms-filter: none;
-    filter: none;
-  }
-  100% {
-    -webkit-transform: rotate(60deg);
-    -moz-transform: rotate(60deg);
-    -o-transform: rotate(60deg);
-    -ms-transform: rotate(60deg);
-    transform: rotate(60deg);
-    top: -200px;
-    right: -1000px;
-    height: 0;
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-  }
-}
-@keyframes flyaway {
-  0% {
-    -webkit-transform: rotate(10deg);
-    -moz-transform: rotate(10deg);
-    -o-transform: rotate(10deg);
-    -ms-transform: rotate(10deg);
-    transform: rotate(10deg);
-    top: 13px;
-    right: 25px;
-    height: 30px;
-  }
-  5% {
-    -webkit-transform: rotate(10deg);
-    -moz-transform: rotate(10deg);
-    -o-transform: rotate(10deg);
-    -ms-transform: rotate(10deg);
-    transform: rotate(10deg);
-    top: 13px;
-    right: 0px;
-    height: 30px;
-  }
-  20% {
-    -webkit-transform: rotate(-20deg);
-    -moz-transform: rotate(-20deg);
-    -o-transform: rotate(-20deg);
-    -ms-transform: rotate(-20deg);
-    transform: rotate(-20deg);
-    top: 13px;
-    right: -130px;
-    height: 45px;
-  }
-  40% {
-    -webkit-transform: rotate(10deg);
-    -moz-transform: rotate(10deg);
-    -o-transform: rotate(10deg);
-    -ms-transform: rotate(10deg);
-    transform: rotate(10deg);
-    top: -40px;
-    right: -280px;
-    opacity: 1;
-    -ms-filter: none;
-    filter: none;
-  }
-  100% {
-    -webkit-transform: rotate(60deg);
-    -moz-transform: rotate(60deg);
-    -o-transform: rotate(60deg);
-    -ms-transform: rotate(60deg);
-    transform: rotate(60deg);
-    top: -200px;
-    right: -1000px;
-    height: 0;
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-  }
-}
-@-moz-keyframes bounce-in {
-  0% {
-    padding-right: 30px;
-  }
-  40% {
-    padding-right: 6px;
-  }
-  50% {
-    padding-left: 30px;
-  }
-  100% {
-    padding-left: 6px;
-  }
-}
-@-webkit-keyframes bounce-in {
-  0% {
-    padding-right: 30px;
-  }
-  40% {
-    padding-right: 6px;
-  }
-  50% {
-    padding-left: 30px;
-  }
-  100% {
-    padding-left: 6px;
-  }
-}
-@-o-keyframes bounce-in {
-  0% {
-    padding-right: 30px;
-  }
-  40% {
-    padding-right: 6px;
-  }
-  50% {
-    padding-left: 30px;
-  }
-  100% {
-    padding-left: 6px;
-  }
-}
-@keyframes bounce-in {
-  0% {
-    padding-right: 30px;
-  }
-  40% {
-    padding-right: 6px;
-  }
-  50% {
-    padding-left: 30px;
-  }
-  100% {
-    padding-left: 6px;
-  }
-}
 /********************************************************************************
 
                                   HOVER EFFECTS
@@ -1240,6 +949,9 @@ spaceship:              9999
 }
 .quote-icon{
   margin-top: 50px;
+  .icon{
+    font-size: 32px;
+  }
 }
 .quote-slider{
   width:100%;
@@ -1316,8 +1028,24 @@ spaceship:              9999
 .contact-item{
   text-transform: none;
   margin-top: 30px;
+  &:hover{
+    transition: 0.2s;
+    .icon, .lnr{
+      opacity: 0.8;
+    }
+  }
   .icons-container{
     height: 80px;
+    .icon, .lnr{
+      font-size: 32px;
+      color: $base-color;
+      @include breakpoint(tablet){
+        font-size: 40px;
+      }
+      @include breakpoint(laptop){
+        font-size: 46px;
+      }
+    }
   }
 }
 
@@ -1328,7 +1056,7 @@ spaceship:              9999
 ********************************************************************************/
 
 .social-icons{
-  i{
+  .icon{
     transition: 0.2s;
     &:hover{
       color: $secondary-color;

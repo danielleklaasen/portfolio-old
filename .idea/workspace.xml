@@ -2,84 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9cc4498-8544-4ca7-9f4b-21bd14907b2e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/styles/vendor/_normalize.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/common/preloader.scss" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/ar.png" afterPath="$PROJECT_DIR$/assets/images/ar.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/ar2.jpg" afterPath="$PROJECT_DIR$/assets/images/ar2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/ar2.png" afterPath="$PROJECT_DIR$/assets/images/ar2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/danielle.jpg" afterPath="$PROJECT_DIR$/assets/images/danielle.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/daniellexs.jpg" afterPath="$PROJECT_DIR$/assets/images/daniellexs.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/game.png" afterPath="$PROJECT_DIR$/assets/images/game.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/game2.png" afterPath="$PROJECT_DIR$/assets/images/game2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/marie.jpg" afterPath="$PROJECT_DIR$/assets/images/marie.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pi.png" afterPath="$PROJECT_DIR$/assets/images/pi.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/realestate.png" afterPath="$PROJECT_DIR$/assets/images/realestate.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/realestate1.jpg" afterPath="$PROJECT_DIR$/assets/images/realestate1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/realestate3.png" afterPath="$PROJECT_DIR$/assets/images/realestate3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/register.png" afterPath="$PROJECT_DIR$/assets/images/register.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/thomas.jpg" afterPath="$PROJECT_DIR$/assets/images/thomas.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/upretina.png" afterPath="$PROJECT_DIR$/assets/images/upretina.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/spaceship.ai" afterPath="$PROJECT_DIR$/assets/spaceship.ai" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/website.psd" afterPath="$PROJECT_DIR$/assets/website.psd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/websitexs.psd" afterPath="$PROJECT_DIR$/assets/websitexs.psd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/working files/ar.psd" afterPath="$PROJECT_DIR$/assets/working files/ar.psd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/working files/game.psd" afterPath="$PROJECT_DIR$/assets/working files/game.psd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/working files/realestate.psd" afterPath="$PROJECT_DIR$/assets/working files/realestate.psd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/ar.png" afterPath="$PROJECT_DIR$/dist/images/ar.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/ar2.jpg" afterPath="$PROJECT_DIR$/dist/images/ar2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/ar2.png" afterPath="$PROJECT_DIR$/dist/images/ar2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/danielle.jpg" afterPath="$PROJECT_DIR$/dist/images/danielle.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/daniellexs.jpg" afterPath="$PROJECT_DIR$/dist/images/daniellexs.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/game.png" afterPath="$PROJECT_DIR$/dist/images/game.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/game2.png" afterPath="$PROJECT_DIR$/dist/images/game2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/marie.jpg" afterPath="$PROJECT_DIR$/dist/images/marie.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/pi.png" afterPath="$PROJECT_DIR$/dist/images/pi.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/realestate.png" afterPath="$PROJECT_DIR$/dist/images/realestate.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/realestate1.jpg" afterPath="$PROJECT_DIR$/dist/images/realestate1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/realestate3.png" afterPath="$PROJECT_DIR$/dist/images/realestate3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/register.png" afterPath="$PROJECT_DIR$/dist/images/register.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/thomas.jpg" afterPath="$PROJECT_DIR$/dist/images/thomas.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/upretina.png" afterPath="$PROJECT_DIR$/dist/images/upretina.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PORTFOLIO.iml" afterPath="$PROJECT_DIR$/.idea/PORTFOLIO.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/logo400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/scripts/preloader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/components/_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/contact-form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/page-about.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/page-admin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/page-contact.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/page-crud-events.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/page-crud-user.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/page-partners.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/page-single-item.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/page-style-guide.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/styles/layouts/_pages.scss" afterPath="$PROJECT_DIR$/assets/styles/components/_icons.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/ajax.svg" afterPath="$PROJECT_DIR$/assets/images/ajax.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/angular.svg" afterPath="$PROJECT_DIR$/assets/images/angular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/createjs.svg" afterPath="$PROJECT_DIR$/assets/images/createjs.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/css.svg" afterPath="$PROJECT_DIR$/assets/images/css.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/html.svg" afterPath="$PROJECT_DIR$/assets/images/html.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/javascript.svg" afterPath="$PROJECT_DIR$/assets/images/javascript.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/jquery.svg" afterPath="$PROJECT_DIR$/assets/images/jquery.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/maps.svg" afterPath="$PROJECT_DIR$/assets/images/maps.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/phonegap.svg" afterPath="$PROJECT_DIR$/assets/images/phonegap.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/php.svg" afterPath="$PROJECT_DIR$/assets/images/php.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/sass.svg" afterPath="$PROJECT_DIR$/assets/images/sass.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/wikitude.svg" afterPath="$PROJECT_DIR$/assets/images/wikitude.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scripts/main.js" afterPath="$PROJECT_DIR$/assets/scripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scripts/preloader.js" afterPath="$PROJECT_DIR$/assets/scripts/preloader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/common/_global.scss" afterPath="$PROJECT_DIR$/assets/styles/common/_global.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/common/_typography.scss" afterPath="$PROJECT_DIR$/assets/styles/common/_typography.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/common/_variables.scss" afterPath="$PROJECT_DIR$/assets/styles/common/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/layouts/_header.scss" afterPath="$PROJECT_DIR$/assets/styles/layouts/_header.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/styles/main.scss" afterPath="$PROJECT_DIR$/assets/styles/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/ajax.svg" afterPath="$PROJECT_DIR$/dist/images/ajax.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/angular.svg" afterPath="$PROJECT_DIR$/dist/images/angular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/createjs.svg" afterPath="$PROJECT_DIR$/dist/images/createjs.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/css.svg" afterPath="$PROJECT_DIR$/dist/images/css.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/html.svg" afterPath="$PROJECT_DIR$/dist/images/html.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/javascript.svg" afterPath="$PROJECT_DIR$/dist/images/javascript.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/jquery.svg" afterPath="$PROJECT_DIR$/dist/images/jquery.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/maps.svg" afterPath="$PROJECT_DIR$/dist/images/maps.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/phonegap.svg" afterPath="$PROJECT_DIR$/dist/images/phonegap.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/php.svg" afterPath="$PROJECT_DIR$/dist/images/php.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/sass.svg" afterPath="$PROJECT_DIR$/dist/images/sass.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/images/wikitude.svg" afterPath="$PROJECT_DIR$/dist/images/wikitude.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/main.js" afterPath="$PROJECT_DIR$/dist/scripts/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scripts/main.js.map" afterPath="$PROJECT_DIR$/dist/scripts/main.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/main.css" afterPath="$PROJECT_DIR$/dist/styles/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/styles/main.css.map" afterPath="$PROJECT_DIR$/dist/styles/main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/node-sass" afterPath="$PROJECT_DIR$/node_modules/.bin/node-sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/contact-form.php" afterPath="$PROJECT_DIR$/templates/contact-form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/footer.php" afterPath="$PROJECT_DIR$/templates/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/header.php" afterPath="$PROJECT_DIR$/templates/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.php" afterPath="$PROJECT_DIR$/templates/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/navigation.php" afterPath="$PROJECT_DIR$/templates/navigation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/scripts.php" afterPath="$PROJECT_DIR$/templates/scripts.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/work-items.php" afterPath="$PROJECT_DIR$/templates/work-items.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,88 +48,18 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.44568247">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="_global.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/styles/common/_global.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-630">
-                  <caret line="1113" column="11" lean-forward="false" selection-start-line="1113" selection-start-column="2" selection-end-line="1113" selection-end-column="11" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/assets/styles/common/_variables.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
-                  <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_typography.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/styles/common/_typography.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-790">
-                  <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/templates/home.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2235">
-                  <caret line="149" column="14" lean-forward="false" selection-start-line="149" selection-start-column="14" selection-end-line="149" selection-end-column="14" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/scripts/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assets/styles/main.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/templates/header.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="76" lean-forward="false" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="work-items.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/work-items.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -186,11 +70,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>footer</find>
-      <find>close-</find>
-      <find>contain</find>
-      <find>background</find>
-      <find>.wdw</find>
       <find>btn-hover</find>
       <find>img</find>
       <find>.work-wdw</find>
@@ -216,6 +95,11 @@
       <find>sass</find>
       <find>prelo</find>
       <find>pace</find>
+      <find>contact</find>
+      <find>testi</find>
+      <find>fnAnimateUpButton</find>
+      <find>test</find>
+      <find>.lnr</find>
     </findStrings>
     <replaceStrings>
       <replace>accent2-color</replace>
@@ -231,7 +115,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/assets/manifest.json" />
-        <option value="$PROJECT_DIR$/templates/scripts.php" />
         <option value="$PROJECT_DIR$/templates/events.php" />
         <option value="$PROJECT_DIR$/templates/page-event.php" />
         <option value="$PROJECT_DIR$/templates/page-single-item.php" />
@@ -243,26 +126,28 @@
         <option value="$PROJECT_DIR$/example-plugin.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/assets/styles/common/_mixins.scss" />
-        <option value="$PROJECT_DIR$/templates/navigation.php" />
-        <option value="$PROJECT_DIR$/assets/styles/components/_forms.scss" />
-        <option value="$PROJECT_DIR$/assets/styles/layouts/_header.scss" />
-        <option value="$PROJECT_DIR$/templates/footer.php" />
         <option value="$PROJECT_DIR$/templates/footer-git.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/templates/contact-form.php" />
         <option value="$PROJECT_DIR$/assets/styles/components/_buttons.scss" />
-        <option value="$PROJECT_DIR$/templates/home.php" />
         <option value="$PROJECT_DIR$/assets/styles/layouts/_footer.scss" />
-        <option value="$PROJECT_DIR$/templates/work-items.php" />
-        <option value="$PROJECT_DIR$/assets/styles/common/_global.scss" />
         <option value="$PROJECT_DIR$/assets/scripts/preloader.js" />
         <option value="$PROJECT_DIR$/assets/styles/common/preloader.scss" />
-        <option value="$PROJECT_DIR$/assets/scripts/main.js" />
-        <option value="$PROJECT_DIR$/assets/styles/main.scss" />
         <option value="$PROJECT_DIR$/assets/styles/vendor/_normalize.scss" />
-        <option value="$PROJECT_DIR$/templates/header.php" />
-        <option value="$PROJECT_DIR$/assets/styles/common/_typography.scss" />
         <option value="$PROJECT_DIR$/assets/styles/common/_variables.scss" />
+        <option value="$PROJECT_DIR$/assets/styles/components/_forms.scss" />
+        <option value="$PROJECT_DIR$/assets/styles/main.scss" />
+        <option value="$PROJECT_DIR$/templates/navigation.php" />
+        <option value="$PROJECT_DIR$/assets/scripts/main.js" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/templates/footer.php" />
+        <option value="$PROJECT_DIR$/templates/header.php" />
+        <option value="$PROJECT_DIR$/templates/scripts.php" />
+        <option value="$PROJECT_DIR$/assets/styles/components/_icons.scss" />
+        <option value="$PROJECT_DIR$/templates/home.php" />
+        <option value="$PROJECT_DIR$/assets/styles/layouts/_header.scss" />
+        <option value="$PROJECT_DIR$/assets/styles/common/_typography.scss" />
+        <option value="$PROJECT_DIR$/assets/styles/common/_global.scss" />
+        <option value="$PROJECT_DIR$/templates/work-items.php" />
       </list>
     </option>
   </component>
@@ -304,6 +189,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -350,20 +237,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PORTFOLIO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PORTFOLIO" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -383,28 +256,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PORTFOLIO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PORTFOLIO" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -474,28 +325,8 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PORTFOLIO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PORTFOLIO" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -603,12 +434,13 @@
       <workItem from="1502961109633" duration="13959000" />
       <workItem from="1503301148400" duration="6960000" />
       <workItem from="1503489590374" duration="1350000" />
-      <workItem from="1509628635562" duration="2441000" />
+      <workItem from="1509628635562" duration="7301000" />
+      <workItem from="1509707828837" duration="3696000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223845000" />
+    <option name="totallyTimeSpent" value="232401000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -624,7 +456,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.141258" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14232409" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736155" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -639,7 +471,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -657,39 +489,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/navigation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="116" lean-forward="false" selection-start-line="30" selection-start-column="116" selection-end-line="30" selection-end-column="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/layouts/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="15" lean-forward="false" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/_bogdan.scss" />
-    <entry file="file://$PROJECT_DIR$/assets/styles/components/_wp-classes.scss" />
-    <entry file="file://$PROJECT_DIR$/assets/styles/components/_factbox.scss" />
-    <entry file="file://$PROJECT_DIR$/assets/styles/libraries/hover/effects/border-transitions/_underline-from-center.scss" />
-    <entry file="file://$PROJECT_DIR$/assets/styles/libraries/hover/effects/border-transitions/_underline-from-center-disappear.scss" />
-    <entry file="file://$PROJECT_DIR$/templates/page-contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/events.php" />
     <entry file="file://$PROJECT_DIR$/assets/styles/components/_buttonstest.scss" />
     <entry file="file://$PROJECT_DIR$/assets/styles/layouts/_posts.scss" />
@@ -729,110 +528,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/components/_forms.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525">
-          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/layouts/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="75" lean-forward="false" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/page-single-item.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/page-style-guide.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="105" column="18" lean-forward="true" selection-start-line="97" selection-start-column="12" selection-end-line="105" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/common/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/page-style-guide.php" />
     <entry file="file://$PROJECT_DIR$/templates/footer-git.php" />
-    <entry file="file://$PROJECT_DIR$/templates/contact-form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/layouts/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="852">
-          <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/layouts/_pages.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scripts/preloader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/components/_buttons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="41" lean-forward="false" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/work-items.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="217" column="14" lean-forward="false" selection-start-line="217" selection-start-column="14" selection-end-line="217" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2520">
           <caret line="3891" column="14" lean-forward="false" selection-start-line="3891" selection-start-column="10" selection-end-line="3891" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -840,60 +541,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="44" lean-forward="false" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/scripts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/navigation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="127" lean-forward="false" selection-start-line="24" selection-start-column="127" selection-end-line="24" selection-end-column="127" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/common/preloader.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/common/_global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-630">
-          <caret line="1113" column="11" lean-forward="false" selection-start-line="1113" selection-start-column="2" selection-end-line="1113" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2235">
-          <caret line="149" column="14" lean-forward="false" selection-start-line="149" selection-start-column="14" selection-end-line="149" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/common/preloader.scss" />
     <entry file="file://$PROJECT_DIR$/assets/styles/vendor/_normalize.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -902,26 +553,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/main.scss">
+    <entry file="file://$PROJECT_DIR$/assets/styles/common/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="-1180">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/header.php">
+    <entry file="file://$PROJECT_DIR$/assets/styles/components/_buttons.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="76" lean-forward="false" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
+        <state relative-caret-position="-345">
+          <caret line="33" column="41" lean-forward="false" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/styles/common/_typography.scss">
+    <entry file="file://$PROJECT_DIR$/assets/styles/components/_forms.scss" />
+    <entry file="file://$PROJECT_DIR$/assets/styles/layouts/_pages.scss" />
+    <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-790">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="0" column="2152" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -929,7 +590,134 @@
     <entry file="file://$PROJECT_DIR$/assets/styles/common/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
-          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/layouts/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="1" lean-forward="true" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/contact-form.php" />
+    <entry file="file://$PROJECT_DIR$/templates/page-about.php" />
+    <entry file="file://$PROJECT_DIR$/templates/page-admin.php" />
+    <entry file="file://$PROJECT_DIR$/templates/page-contact.php" />
+    <entry file="file://$PROJECT_DIR$/templates/page-crud-events.php" />
+    <entry file="file://$PROJECT_DIR$/templates/page-crud-user.php" />
+    <entry file="file://$PROJECT_DIR$/templates/page-partners.php" />
+    <entry file="file://$PROJECT_DIR$/templates/page-single-item.php" />
+    <entry file="file://$PROJECT_DIR$/templates/navigation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/preloader.js" />
+    <entry file="file://$PROJECT_DIR$/assets/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5265">
+          <caret line="364" column="4" lean-forward="false" selection-start-line="364" selection-start-column="4" selection-end-line="364" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="6" lean-forward="false" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="57" lean-forward="false" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+          <folding>
+            <element signature="e#1143#1149#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="239" column="92" lean-forward="false" selection-start-line="239" selection-start-column="92" selection-end-line="239" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/layouts/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="52" column="41" lean-forward="false" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/components/_icons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/common/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="72" column="3" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="72" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/common/_global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="1045" column="21" lean-forward="false" selection-start-line="1045" selection-start-column="21" selection-end-line="1045" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/scripts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="81" lean-forward="true" selection-start-line="2" selection-start-column="81" selection-end-line="2" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/work-items.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="47" />
           <folding />
         </state>
       </provider>

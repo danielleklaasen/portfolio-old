@@ -1,22 +1,26 @@
 <footer class="footer primary-color-bg">
-    <!--<p class="base-color">Proudly hosted on my RaspberryPi server</p>-->
     <div class="container">
         <div class="social-icons">
             <a href="https://www.linkedin.com/in/danielleklaasen/" target="_blank">
-                <i class="fa fa-linkedin tertiary-color" aria-hidden="true"></i>
+                <svg class="icon icon-linkedin2 tertiary-color"><use xlink:href="#icon-linkedin2"></use></svg>
             </a>  &nbsp;&nbsp;
-            <a href="https://www.facebook.com/daantje1989" target="_blank"><i class="fa fa-facebook tertiary-color" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/daantje1989" target="_blank">
+                <svg class="icon icon-facebook tertiary-color"><use xlink:href="#icon-facebook"></use></svg>
+            </a>
            &nbsp;&nbsp;
-            <a href="https://plus.google.com/109358922196162573475" target="_blank"><i class="fa fa-google-plus tertiary-color" aria-hidden="true"></i></a>
+            <a href="https://plus.google.com/109358922196162573475" target="_blank">
+                <svg class="icon icon-google-plus tertiary-color"><use xlink:href="#icon-google-plus"></use></svg>
+            </a>
             &nbsp;
-            <a href="https://github.com/danielleklaasen" target="_blank"><i class="fa fa-github tertiary-color" aria-hidden="true"></i></a>
+            <a href="https://github.com/danielleklaasen" target="_blank">
+                <svg class="icon icon-github tertiary-color"><use xlink:href="#icon-github"></use></svg>
+            </a>
 
 
         </div>
         <div class="copyright">
             <p class="base-color letter-spacing header-font">
-                <i class="fa fa-copyright" aria-hidden="true"></i>
-                Danielle Klaasen 2017</p>
+               <span class="copyright-icon">&copy;</span> Danielle Klaasen 2017</p>
         </div>
     </div>
 

@@ -24,7 +24,7 @@
                         I created a one page web app, where you can register and login to C R U D (create, read, update, delete) properties and users (only when logged in as a super admin).
                         AJAX is used to optimize performance and usability. The page will for example automatically show the latest properties without refreshing and also notifies the user of newly uploaded properties through browser notifications.
                         <br/><br/>
-                        The digital solution is mobile-first developed and fully responsive.
+                        <span class="emphasis">The digital solution is mobile-first developed and fully responsive.</span>
                         An extra feature is the AngularJS search form, where you can search through properties without delay.
                     </p>
                 </div>

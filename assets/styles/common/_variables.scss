@@ -72,44 +72,6 @@ body{
   width: 100%;
   height: 100%;
 }
-
-.background-image-overlay-base-color{
-  @extend %full-width-height;
-  background-color: rgba($base-color, 0.5);
-}
-.background-image-overlay-primary-color{
-  @extend %full-width-height;
-  background-color: rgba($primary-color, 0.5);
-}
-.background-image-overlay-accent1-color{
-  @extend %full-width-height;
-  background-color: rgba($accent1-color, 0.8);
-}
-.background-image-overlay-accent2-color{
-  @extend %full-width-height;
-  background-color: rgba($accent2-color, 0.8);
-}
-
-
-.background-image-overlay-secondary-color{
-  @extend %full-width-height;
-  background-color: rgba($secondary-color, 0.8);
-}
-
-.background-image-overlay-secondary-color-dark{
-  @extend %full-width-height;
-  background-color: rgba($secondary-color, 0.9);
-}
-.background-image-overlay-accent1-gradient{
-  @extend %full-width-height;
-  background: rgba($accent1-color, 0.9); /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(top, rgba($accent1-color, 0.9), $primary-color); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom, rgba($accent1-color, 0.9), $primary-color); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom, rgba($accent1-color, 0.9), $primary-color); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom, rgba($accent1-color, 0.9), $primary-color); /* Standard syntax */
-}
-
-
 /********************************************************************************
                                   GRADIENT
 ********************************************************************************/
@@ -121,42 +83,9 @@ body{
   background: -moz-linear-gradient(bottom right, $base-color, $accent2-color); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to bottom right, $base-color, $accent2-color); /* Standard syntax */
 }
-.gradient-2{
-  background: $base-color; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(-90deg, $base-color, $secondary-color); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(-90deg, $base-color, $secondary-color); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(-90deg, $base-color, $secondary-color); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(-90deg, $base-color, $secondary-color); /* Standard syntax */
-}
-
-.gradient-3{
-  background: $base-color; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left top, $base-color, $accent1-color); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, $base-color, $accent1-color); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, $base-color, $accent1-color); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, $base-color, $accent1-color); /* Standard syntax */
-}
-.gradient-4{
-  background: $base-color; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(-90deg, #343434, $primary-color); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(-90deg, #343434, $primary-color); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(-90deg, #343434, $primary-color); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(-90deg, #343434, $primary-color); /* Standard syntax */
-}
-
-
-.gradient-5{
-  background: $base-color; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(top, $accent1-color, $primary-color); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom, $accent1-color, $primary-color); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom, $accent1-color, $primary-color); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom, $accent1-color, $primary-color); /* Standard syntax */
-}
-
 /********************************************************************************
                                 < A > COLOUR VAR
 ********************************************************************************/
-
 
 .link-underline-appear, .link-underline-disappear{
   &:before{

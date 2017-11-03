@@ -309,14 +309,6 @@ $(document).on("scroll", function () { // Do this on scroll in .wdw
     windowHeight = $(this).height(); // you'll need the new height value
 });
 
-// $('.wdw').on("scroll", function () { // Do this on scroll in .wdw
-//     fnUpButton(this);
-//
-//     fnManipulateScrollSpeed();
-//     fnAnimateArrow(this);
-//     fnAnimateSkills();
-// });
-
 
 /********************************************************************************
  Smooth scrolling
@@ -370,14 +362,13 @@ function fnOpenCloseMenu(){
 }
 
 function fnAnimateUpButton(){
-
     var bottomValue = "110vh";
     $('#up-button').animate({
         bottom: bottomValue
     },500);
 
     setTimeout(function(){
-        $('body').stop().animate({
+        $('html,body').stop().animate({
             scrollTop: 0
         }, 500);
     },300);
@@ -441,8 +432,6 @@ function fnOpenWorkItem(wdwToOpen){
  TESTIMONIAL SLIDER
 
  ********************************************************************************/
-
-
 
  $(document).on('mouseover', '.person-img', function(){
      $(this).css('opacity', '1');
@@ -537,7 +526,7 @@ jQuery('img.svg').each(function(){
 
         // Check if the viewport is set, if the viewport is not set the SVG wont't scale.
         if(!$svg.attr('viewBox') && $svg.attr('height') && $svg.attr('width')) {
-            $svg.attr('viewBox', '0 0 ' + $svg.attr('height') + ' ' + $svg.attr('width'));
+            $svg.attr('viewBox', '0 0 ' + $svg.attr('height') + ' ' + $svg.attr('width'))
         }
 
         // Replace image with new SVG

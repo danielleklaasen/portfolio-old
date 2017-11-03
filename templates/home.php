@@ -5,7 +5,7 @@
             <div class="front-img-large background-image only-desktop" data-scroll-speed="6"></div>
             <div class="content">
                 <h1 class="highest">
-                    Danielle<br/>
+                    Daniëlle<br/>
                     Full Stack Developer<br/>
                 </h1>
                 <div class="vertical-line only-mobile"></div>
@@ -19,10 +19,6 @@
                 </a>
             </div>
         </div>
-
-
-
-
     <div id="skills" class="container">
 
         <h1 class="center">Skills</h1>
@@ -158,7 +154,7 @@
         <h1 class="center">What others say</h1>
 
         <div class="quote-icon center" data-scroll-speed="80">
-            <i class="fa fa-quote-left accent2-color fa-2x" aria-hidden="true"></i>
+            <svg class="icon icon-bubble accent2-color"><use xlink:href="#icon-bubble"></use></svg>
         </div>
 
         <div class="quote-slider centered ">
@@ -167,13 +163,17 @@
                     <hr class="small">
                     <span class="testimonial-quote active">
                         Daniëlle	has	been	in	charge	of designing,	developing	and	maintaining	our	organization’s	website and	portal.	She is extremely	organized,	reliable	and	goal-oriented.
-                    She can	work	independently	and	is	able	to	follow	through	to	ensure	that	the	job	gets	done.	Furthermore,	she has	incredible	creative	energies	and	is	able	to	inspire	innovative	ideas.
+                    She can	work	independently	and	is	able	to	follow	through	to	ensure	that	the	job	gets	done.	Furthermore,	<span class="emphasis">she has	incredible	creative	energies	and	is	able	to	inspire	innovative	ideas.</span>
                     I	highly	recommend	her as	your	next	employee.
                     </span>
                     <span class="testimonial-quote">
-                    Danielle has worked very thoroughly with both research and ideation to solve the problem she was given.
-                    Daniëlle is a hard worker, who always delivers high quality work on time.
+                    Daniëlle has worked very thoroughly with both research and ideation to solve the problem she was given.
+                        <span class="emphasis">Daniëlle is a hard worker, who always delivers high quality work on time.</span>
                     She has a winning personality and has brought many innovative and inspirational ideas to the group she worked with.
+                    </span>
+                    <span class="testimonial-quote">
+                        Daniëlle has good skills in frontend development (PHP, HTML, CSS & JavaScript) and combined with her expertise in graphic design, <span class="emphasis">she has the complete set of skills for developing a modern and functional website.</span>
+                    She works independently and can deliver progress even with limited instructions. I highly recommend her for any frontend web project. She is also a team player and adapts quickly and easily withing a team.
                     </span>
 
                 </blockquote>
@@ -182,8 +182,11 @@
                     <p class="testimonial-person italic active">
                         Thomas Fremming &#8729; Founder & CEO Overskudsmad
                     </p>
-                    <p class="testimonial-person italic two">
+                    <p class="testimonial-person italic">
                         Marie Louise Brixtofte &#8729;  Adjunct professor KEA Copenhagen School of Design & Technology
+                    </p>
+                    <p class="testimonial-person italic">
+                        Joacim Graff &#8729;  CTO QuantAds
                     </p>
                 </div>
 
@@ -193,6 +196,8 @@
                    </div>
                    <div class="person-img background-image" style="background-image: url(dist/images/marie.jpg);">
                    </div>
+                    <div class="person-img background-image" style="background-image: url(dist/images/joacim.jpg);">
+                    </div>
                 </div>
 
         </div>
@@ -214,9 +219,8 @@
                     <!-- FLEX ITEMS -->
                     <a href="https://goo.gl/maps/SwaVAwpUCqt" target="_blank" class="contact-item  flex-column base-color-hover">
                         <div class="icons-container flex-row flex-center">
-                            <i class="fa fa-map-o fa-2x base-color" aria-hidden="true"></i>
+                            <svg class="lnr lnr-map"><use xlink:href="#lnr-map"></use></svg>
                         </div>
-
                             <p class=" base-color center">
                                 Badelochstraat 25<br/>
                                 2026 VL Haarlem<br/>
@@ -225,7 +229,7 @@
                     </a>
                     <a href="mailto:danielleklaasen@gmail.com" class="contact-item flex-column base-color-hover">
                         <div class="icons-container flex-row flex-center">
-                            <i class="fa fa-envelope-o fa-2x base-color" aria-hidden="true"></i>
+                            <svg class="lnr lnr-envelope"><use xlink:href="#lnr-envelope"></use></svg>
                         </div>
                             <p class=" base-color center">
                                 danielleklaasen@gmail.com
@@ -233,7 +237,7 @@
                     </a>
                     <a href="tel:+31683900789" class="contact-item flex-column base-color-hover">
                         <div class="icons-container flex-row flex-center">
-                            <i class="fa fa-mobile fa-3x base-color" aria-hidden="true"></i>
+                            <svg class="lnr lnr-smartphone"><use xlink:href="#lnr-smartphone"></use></svg>
                         </div>
                         <p class="base-color center">
                             +31 (0) 6 839 007 89
@@ -241,11 +245,6 @@
                     </a>
                 </div>
             </div>
-       <?php
-       //INSERT FOOTER
-       //include('contact-form.php');
-       ?>
-
    </div>
         </section>
 
