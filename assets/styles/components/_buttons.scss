@@ -226,6 +226,9 @@ button, .btn{
       background-color: $base-color;
     }
   }
+  @include breakpoint(laptop){
+    display: none;
+  }
 }
 
 

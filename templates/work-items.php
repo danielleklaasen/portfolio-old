@@ -1,9 +1,11 @@
 
 <!-- WORK INDIVIDUAL WDW -->
 
+<p id="besideMouse">click to close</p>
+
 <div id="wdw-1" class="work-wdw">
-    <div class="btn-close">
-    </div>
+    <!--<div class="btn-close">
+    </div>-->
     <div class="container">
         <h1 class="center">
             Real Estate Web App
@@ -94,8 +96,6 @@
 
 </div>
 <div id="wdw-2" class="work-wdw">
-    <div class="btn-close">
-    </div>
     <div class="container">
         <h1 class="center">
             Augmented Reality (AR) Poster
@@ -163,8 +163,6 @@
 
 </div>
 <div id="wdw-3" class="work-wdw">
-    <div class="btn-close">
-    </div>
     <div class="container">
         <h1 class="center">
             HTML5 Game

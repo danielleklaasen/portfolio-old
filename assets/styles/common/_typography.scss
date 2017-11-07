@@ -150,7 +150,5 @@ td{
 }
 
 .emphasis{
-  background-color: $primary-color;
-  color: $base-color;
-  padding: 0 3px;
+  border-bottom: 1px solid $accent2-color;
 }
