@@ -2,10 +2,10 @@
   padding: 15px;
   font-weight: 300;
   cursor: pointer;
-  width: 150px;
+  width: 200px;
   text-align: center;
   font-size: 1em;
-  font-family: $header-font;
+  font-family: $body-font;
 }
 
 button, .btn{
@@ -428,4 +428,13 @@ button, .btn{
     }
   }
 
+}
+
+.btn-link{
+  position: absolute;
+  bottom: 0;
+  color: $secondary-color;
+  background-color: $primary-color;
+  padding: 15px 15px 5px 15px;
+  @include border-radius(2px);
 }

@@ -18,13 +18,18 @@ LINE HEIGHT
 Multiply your letter size by 1.618 and you will get perfect line height.
 ******************************************************************/
 
-@import url('https://fonts.googleapis.com/css?family=Cardo:400|Pathway+Gothic+One');
+//@import url('https://fonts.googleapis.com/css?family=Cardo:400|Pathway+Gothic+One');
+@import url('https://fonts.googleapis.com/css?family=Eczar:400|Work+Sans');
 
 // font stacks
 $sans-serif:        "Helvetica Neue", Helvetica, Arial, sans-serif;
 $serif:             "Georgia", Cambria, Times New Roman, Times, serif;
-$header-font:       'Pathway Gothic One', $sans-serif;
-$body-font:         'Cardo', serif;
+$header-font:       'Eczar', serif;
+$body-font:         'Work Sans', $sans-serif;
+
+
+//font-family: 'Work Sans', sans-serif;
+//font-family: 'Eczar', serif;
 /*
 font-family: 'Pathway Gothic One', sans-serif;
 font-family: 'Cardo', serif;
@@ -40,7 +45,6 @@ h1, h2, h3, h4, h5, h6{
   line-height: 1.618em;
 
   //add customization style
-  text-transform: uppercase;
   font-weight: normal;
 
   &.light{
@@ -53,23 +57,26 @@ h1, h2, h3, h4, h5, h6{
 
 h1{
   letter-spacing: -2px;
-  font-size: 3em; /* 48x / 16px */;
+  font-size: 2.25em; /*  36px / 16px */;
   @include breakpoint(tablet){
-    font-size: 3.5em /* 56px / 16px */;
+    font-size: 2.33333em /* 42px / 16px */;
+    //font-size: 3.5em /* 56px / 16px */;
   }
   @include breakpoint(laptop){
-    font-size: 4em /* ..px / 16px */;
+    font-size: 2.77777777777em /* 50px / 16px */;
+    //font-size: 4em /* ..px / 16px */;
   }
 
 }
 h2{
   letter-spacing: -1px;
-  font-size: 2.25em /* 36px / 16px */;
+  font-size: 1.875em /* 30px / 16px */;
   @include breakpoint(tablet){
-    font-size: 2.33333em /* 42px / 16px */;
+   // font-size: 2.33333em /* 42px / 16px */;
   }
   @include breakpoint(laptop){
-    font-size: 2.77777777777em /* 50px / 16px */;
+    font-size: 2em;
+   // font-size: 2.77777777777em /* 50px / 16px */;
   }
 }
 h3{
@@ -86,7 +93,7 @@ h6{
 }
 
 p{
-  font-size: 1.125em /* 18px / 16px */;
+  //font-size: 1.125em /* 18px / 16px */;
   font-family: $body-font;
   font-weight: normal;
   color: $primary-color;
@@ -109,7 +116,7 @@ p{
 }
 
 blockquote{
-  font-size: 1.125em /* 16px */;
+ // font-size: 1.125em /* 16px */;
   font-family: $body-font;
   font-weight: normal;
   color: $primary-color;

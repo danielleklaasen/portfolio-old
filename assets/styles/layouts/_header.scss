@@ -48,9 +48,10 @@ nav.main{
   transition: 1s all;
   z-index: 999;
   display: none;
-  .menu-item{
+  .menu-item, .btn-link{
     //font-size: 2.25em /* 36px / 16px */;
-    font-size: 2.625em; /* 42x / 16px */;
+    font-family: $header-font;
+    font-size: 2em; /* 42x / 16px */;
     opacity: 0;
     margin-bottom: 40px;
     &:last-child{
@@ -94,6 +95,12 @@ nav.main{
       &:nth-child(10){
         animation-delay: 0.9s;
       }
+    }
+    .btn-link{
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+      animation-name: fadeInUp;
+      animation-delay: 0.5s;
     }
   }
 }

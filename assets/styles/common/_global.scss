@@ -165,6 +165,18 @@ hr{
   animation-fill-mode: both;
   animation-name: fadeInLeft;
 }
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 
 @keyframes fadeInLeft {
   from {
@@ -177,6 +189,8 @@ hr{
     transform: none;
   }
 }
+
+
 
 .fadeInLeft {
   animation-name: fadeInLeft;
@@ -206,6 +220,8 @@ hr{
 .arrow-animation{
   transform: translateY(-100vh);
 }
+
+
 
 /********************************************************************************
 
@@ -511,13 +527,20 @@ spaceship:              9999
       width: 100%;
 
       text-align: center;
+      font-size: 2.33333em /* 42px / 16px */;
+    //  font-size: 2.25em; /*  36px / 16px */;
+      @include breakpoint(tablet){
+        font-size: 2.77777777777em /* 50px / 16px */;
+      }
       @include breakpoint(laptop){
         text-align: left;
         margin-left: -18.84%; /* 6 x pi */
-        font-size: 4.5em; /*72 / 16 */
+        font-size: 3em; /*  / 16px */;
+       // font-size: 4.5em; /*72 / 16 */
       }
       @include breakpoint(bigscreens){
-        font-size: 5em; /*80 / 16 */
+
+        //font-size: 5em; /*80 / 16 */
       }
     }
     .res-front-img{
@@ -808,6 +831,9 @@ spaceship:              9999
 #besideMouse{
   z-index:100000000000000;
   position:fixed;
+  background-color: $base-color;
+  padding: 20px;
+  top:-40px;
 }
 
 .work-wdw{
