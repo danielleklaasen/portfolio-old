@@ -1,4 +1,4 @@
 # Portfolio website build in Javascript
 
-![Portfolio gif](portfolio.gif)
+![Portfolio gif](portfolio-animation.gif)
 
